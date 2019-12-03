@@ -1,4 +1,8 @@
-#include "work.h"
+#include<sys/socket.h>
+#include<stdio.h>
+#include<string.h>
+#include<netdb.h>
+#include<stdlib.h>
 int main()
 {
     char buf[100];
